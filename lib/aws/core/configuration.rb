@@ -319,7 +319,7 @@ module AWS
 
         # @private
         def accepted_options
-          @options ||= Set.new
+          @options ||= ::Set.new
         end
 
         # @private
